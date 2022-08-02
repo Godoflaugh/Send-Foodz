@@ -1,0 +1,18 @@
+[
+  {
+    "recipeName": "Chicken Fried Rice",
+    "username": "Godoflaugh",
+    "ingredients": "Jasmine Rice, Chicken, Vegetable Oil, 2 Eggs, Green Onion, Salt, Pepper", 
+    "cookingTime": "20",
+    "instructions": " On the side saute the chicken until 50%-65% done. Heat oil in a pan until shimmering, saute the white parts of the onion (until you can smell onions), toss in 2 beaten eggs and scramble them until they are just set. Then mix in the chicken and heat through, add the rice and use your spatula to break up the clumps of rice so it is nice and seperate. Saute everything together, then pour on the sides some dark soy sauce (for color). Add in some dried dashi powder, salt, white pepper. Mix together and plate. Garnish with a little sesame oil and the green parts of the green onion and enjoy! ",
+    "equipment": "A wok or a large saute pan, spatula"
+  },
+  {
+    "recipeName": "Spaghetti and Meatballs",
+    "username": "Dswrecks",
+    "ingredients": "Spaghetti pasta, meatballs(frozen or homemade), olive oil, tomato sauce, basil, garlic, salt and pepper",
+    "cookingTime": "35",
+    "instructions": "In a pan heat up olive oil and saute your garlic until fragarant. Place your meatballs in the oven and cook until done. After the garlic is fragrant add in your tomato sauce, salt, pepper and cook for 10 minutes. In a seperate pot cook your pasta until al-dente, and drain save a cup of the pasta water. Once the sauce is done, add in the meatballs and stir to combine, plate your spaghetti, and place 3 meatballs and some sauce ontop. Garnish with some fresh basil and grated parmesean cheese",
+    "equipment": "Tongs, Large Stock Pot, Saute pan, oven safe sheet tray, strainer"
+  }
+]
