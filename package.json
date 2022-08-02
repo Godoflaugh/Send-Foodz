@@ -4,11 +4,12 @@
   "description": "A cool food app",
   "main": "index.js",
   "engines": {
-    "node": "16.x",
-    "npm": "4.x"
+    "node": "16.15.1",
+    "npm": "8.11.0"
   },
   "scripts": {
     "start": "node server/server.js --ignore client",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
