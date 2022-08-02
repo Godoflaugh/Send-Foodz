@@ -38,18 +38,6 @@ var upload = multer({ storage: storage });
 var Image = require('./models/Image')
 var Recipe = require('./models/Recipe')
 
-app.get('/', (req, res) => {
-  Recipe.find({}, (err, items) => {
-    if (err) {
-      console.log(err);
-      res.status(500).send('An error occurred', err);
-    }
-    else {
-      // res.render('imagesPage', { items: items });
-      res.json(items)
-    }
-  });
-});
 
 app.get('/recipes', (req, res) => {
   Recipe.find({}, (err, items) => {
