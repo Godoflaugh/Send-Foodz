@@ -9,10 +9,9 @@
   },
   "scripts": {
     "start": "node ./server/server.js && cd public/ && npm run start-client",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": "cd server && npm i && cd ../client && npm i",
-    "seed": "cd server && npm run seed",
+    "install": " ./server && npm i && cd ../client && npm i",
+    "seed": "./server && npm run seed",
     "build": "cd client && npm run build"
   },
   "keywords": [],
