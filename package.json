@@ -1,8 +1,12 @@
 {
   "name": "cooking4friends",
   "version": "1.0.0",
-  "description": "",
+  "description": "A cool food app",
   "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "4.x"
+  },
   "scripts": {
     "start": "node server/server.js --ignore client",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
