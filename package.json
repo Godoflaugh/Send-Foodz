@@ -10,8 +10,8 @@
   "scripts": {
     "start": "node ./Server/server.js && cd public/ && npm run start-client",
     "develop": "concurrently \"cd Server && npm run watch\" \"cd client && npm start\"",
-    "install": " ./Server && npm i && cd ../client && npm i",
-    "seed": "./Server && npm run seed",
+    "install": " cd ./Server && npm i && cd ../client && npm i",
+    "seed": "cd ./Server && npm run seed",
     "build": "cd client && npm run build"
   },
   "keywords": [],
