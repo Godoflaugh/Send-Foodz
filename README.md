@@ -7,6 +7,7 @@
   * [Elevator Pitch](#Elevator-Pitch)
   * [Wire Frame](#Wire-frame)
   * [Issues](#Issues)
+  * [Presentation Documents](#Presentation-Documents)
   * [License](#license)    
   * [Contributing](#contributing)
   * [Questions](#questions)
@@ -33,6 +34,10 @@
   This repository is a copy of the original due to deployment issues while loading to Heroku. Below is a screenshot showing past commit pushes on our previous repository.
 
 ![SendFoodz commitpage](https://user-images.githubusercontent.com/61856201/182273393-19deb0ad-434a-4731-9252-1134a91eb1a1.png)
+
+  ## Presentation Documents
+  
+  [Powerpoint Presentation](https://docs.google.com/presentation/d/1_DP6zd6kFOY3ulr3T0_aEUEmzXKZXXCgeZKLM0ERLYM/edit?usp=sharing)
 
   ## License
 
