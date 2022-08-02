@@ -2,16 +2,16 @@
   "name": "cooking4friends",
   "version": "1.0.0",
   "description": "A cool food app",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "16.15.1",
     "npm": "8.11.0"
   },
   "scripts": {
-    "start": "node ./server/server.js && cd public/ && npm run start-client",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "install": " /server && npm i && cd ../client && npm i",
-    "seed": "./server && npm run seed",
+    "start": "node ./Server/server.js && cd public/ && npm run start-client",
+    "develop": "concurrently \"cd Server && npm run watch\" \"cd client && npm start\"",
+    "install": " ./Server && npm i && cd ../client && npm i",
+    "seed": "./Server && npm run seed",
     "build": "cd client && npm run build"
   },
   "keywords": [],
